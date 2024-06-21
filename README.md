@@ -1,2 +1,50 @@
 # SHA256RUST
-My rust code for SHAllenge
+
+My rust code for [SHAllenge](https://shallenge.quirino.net/)
+
+`cargo build --release`
+
+Example run (Windows) :
+
+`.\rust_sha256.exe 0 100000000`
+
+```
+[ now: 0 ]
+(0) hash: bd69e316a383211bc29d2c9680694bda09891efb6ac0f5d3df10eb759ceec8b6 for string: 0
+(0) hash: 52414e5ec0f6853487c07f6fbaaa6a50170eba2d09455c1a2aff81348cae52d7 for string: 1
+(0) hash: 22901fd574547554831b987bc00b40023e65dc5f8bdd69cb984b06ed90ad245c for string: 3
+(0) hash: 1c49024c5f6ec76ceb692fd0f4e764e9675e7543f0eda686f88e50fd8a72487a for string: 7
+(0) hash: 1076b3447c9f9d212825f4eb4164eac820d5e762a69f21e0dea41aa0c075d8a9 for string: 21
+(0) hash: 0520486787315b7ceca037d058c5c08857c4fbec56a77eef33a9def9a6a59867 for string: 53
+(0) hash: 01390373fa8094399550cdb2c7064172b25ae211c5c641e8096d439e89118ee1 for string: 56
+(0) hash: 004a2e5ef67b454245ffe1701bf3990c807459fae52adf37924d275a3c46a4f9 for string: 70
+(0) hash: 0008abd0374c5416c30bb2a12130f7b49494e6d1be8b14d888cae2d391151b34 for string: 1602
+(2) hash: 000814e185da5a0ce209cab6acfa12de227c4a7c765908494d71a601cf627596 for string: 5029
+(0) hash: 0006b9a94e395c7cf5acb8009919455e4a57ada926d5c6faeba5509cde2d78e9 for string: 9989
+(0) hash: 000468f9cdd4e2634f824141f5e01ead1adb7603a31b63670b06b307ce3d3a15 for string: 10537
+(2) hash: 00039041861bf322f076b840bfeae2cb942c0b8327e173ebe2cf2396ba7c62d3 for string: 13902
+(7) hash: 000081f328e8d3dd631bfbae00c66a274697a2865707217f79a85c4204dc84a9 for string: 73366
+(0) hash: 0000629cd080df9a9575de0417445d2213a307a6e2a04dc3e38e93456081508c for string: 76256
+(12) hash: 0000348f183ad73fc59ebc9a87b46df2676b2c6f6968c2b093645bdc5caaf416 for string: 94548
+(0) hash: 00001bd99a051982e032d5f5d3606821d23e4ebdbe22480ff671a03a5ea771aa for string: 148879
+(6) hash: 0000071b47cd6bd36ec81b465af37688dc43f1e2b5ac835b444d90e6630b9acd for string: 324166
+(6) hash: 000006984ccc1469f7facb0c243e966f78fbe1ddec0d8fe09a5da80eb69cab15 for string: 1726187
+(3) hash: 0000061a097c9051fca985d82a5d83079224ce72600be5e7ed217f015be86ac5 for string: 3583333
+(3) hash: 00000218ce0e6646e49146c5dff3d26e5968613cb0c7863e8807ee00b0e6d948 for string: 4188238
+[ now: 10000000 ]
+[ now: 20000000 ]
+(11) hash: 000000b29559aa197442674abe32f5a122ed6e39bd31c7503d93eba9f2892c01 for string: 29776040
+[ now: 30000000 ]
+[ now: 40000000 ]
+[ now: 50000000 ]
+[ now: 60000000 ]
+[ now: 70000000 ]
+[ now: 80000000 ]
+[ now: 90000000 ]
+[ now: 100000000 ]
+[Final]
+ min hash: 000000b29559aa197442674abe32f5a122ed6e39bd31c7503d93eba9f2892c01
+ for string: hello/29776040+worlds
+```
+
+My cuda version is [here](https://github.com/Bamboo-D/SHA256CUDA).
